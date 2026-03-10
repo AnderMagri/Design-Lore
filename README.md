@@ -1,7 +1,7 @@
 # FigmaMaster Lore
 
 Machine-optimized knowledge base for AI-assisted Figma design work.
-**421 records** across **11 modules** — **~260KB** total.
+**429 records** across **11 modules** — **~265KB** total.
 
 ## Usage
 
@@ -38,8 +38,8 @@ Read the manifest.jsonl first, then load only the modules relevant to the task:
 | `07-mobile-ux.jsonl` | Mobile UX: navigation, gestures, accessibility, forms, loading | 35 | 26KB |
 | `08-organization.jsonl` | File org: pages, naming, libraries, versioning, governance | 27 | 18KB |
 | `09-audit-optimization.jsonl` | DS audit: detached instances, duplicates, hardcoded values, health score | 25 | 16KB |
-| `10-execution-recipes.jsonl` | Tool recipes: create components, tokens, screens, validation, gotchas | 38 | 20KB |
-| **Total** | | **421** | **~260KB** |
+| `10-execution-recipes.jsonl` | Tool recipes: section-first workflow, create components, tokens, screens, validation, gotchas | 46 | 24KB |
+| **Total** | | **429** | **~265KB** |
 
 ## Format
 
@@ -62,4 +62,4 @@ JSONL (JSON Lines) — one JSON object per line, optimized for fast AI parsing:
 
 ## Version
 
-v1.2.0 — March 2026
+v1.3.0 — March 2026
