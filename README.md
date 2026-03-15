@@ -1,13 +1,15 @@
-# Figma Lore
+# Design Lore
 
 > A deep design knowledge base for Claude — available as a persistent **Skill**
 > (install once, works automatically) or as files you attach to any conversation.
 
-Figma Lore started as a Figma-specific knowledge base and has grown into a
-broader **design intelligence library** covering Figma mechanics, design systems,
-platform specs, visual perception, typography, colour theory, behavioural
-psychology, art history, design research, UX strategy, interaction design,
-prototyping & testing, design ops, and a complete designer toolkit.
+Design Lore (formerly Figma Lore) started as a Figma-specific knowledge base
+and has grown into a comprehensive **design intelligence library** covering
+Figma mechanics, design systems, platform specs, visual perception, typography,
+colour theory, behavioural psychology, art history, design research, UX
+strategy, interaction design, prototyping & testing, design ops, a complete
+designer toolkit, ecommerce UX (Shopify), and crypto/fintech UX (wallets,
+exchanges, DeFi, banking apps).
 
 ---
 
@@ -83,6 +85,34 @@ prototyping & testing, design ops, and a complete designer toolkit.
   Bernays (engineering consent), Lasswell (communication model), Cialdini
   (7 principles of influence), Sun Tzu (misdirection), full ethics spectrum
 
+### Ecommerce UX (Module 23)
+- **Shopify Conversion** — benchmarks (CVR, add-to-cart rates, abandonment),
+  product page anatomy, ATC button placement & UX, checkout flow optimisation
+- **Conversion Psychology** — Cialdini applied to ecommerce, social proof,
+  scarcity, urgency, anchoring, risk reversal
+- **Mobile Commerce** — thumb zones, touch targets, sticky ATC, mobile-first
+  product pages, page speed impact
+- **Store Architecture** — homepage section hierarchy, collection page UX,
+  filtering & navigation, trust signal placement
+- **Shopify Ecosystem** — app performance impact, widget conflicts, audit
+  checklist, frontend JavaScript weight
+
+### Crypto & Fintech UX (Module 24)
+- **Crypto Core** — irreversibility as design constraint, complexity abstraction,
+  dual-audience problem, high-stakes anxiety
+- **Wallet & Security** — seed phrase UX, address validation, network selection,
+  self-custody onboarding, anti-phishing
+- **Exchange & Trading** — order book hierarchy, chart UX, buy/sell
+  accessibility, order confirmation, real-time feedback
+- **DeFi** — gas fee communication, slippage, smart contract approvals,
+  WalletConnect flow, network switching
+- **Fintech Apps** — banking dashboards, biometric login, credit card UX,
+  portfolio display, risk communication
+- **On/Off-Ramp** — fiat-to-crypto conversion, rate locks, KYC friction,
+  payment method selection, settlement time
+- **Trust & Errors** — regulatory disclosure, proof of reserves, post-FTX
+  expectations, high-stakes error messages
+
 #### Art Styles Covered
 Classical: Renaissance, Baroque, Art Nouveau, Arts & Crafts, Bauhaus, De Stijl,
 Constructivism, Art Deco, Swiss/International Style
@@ -108,7 +138,7 @@ Plus: a framework entry (ah-038) for applying art history to real brand/UI decis
 Figma-Lore/
 │
 ├── README.md                      ← you are here
-├── figma-lore-skill.zip           ← pre-built, ready to install
+├── design-lore-skill.zip          ← pre-built, ready to install
 │
 └── skill/                         ← Claude Skill package
     ├── SKILL.md                   ← skill definition and full module index
@@ -136,7 +166,9 @@ Figma-Lore/
         ├── 19-prototyping-testing.jsonl
         ├── 20-design-ops.jsonl
         ├── 21-designer-toolkit.jsonl
-        └── 22-deep-ux-psychology.jsonl
+        ├── 22-deep-ux-psychology.jsonl
+        ├── 23-ecommerce-ux.jsonl
+        └── 24-crypto-fintech-ux.jsonl
 ```
 
 ---
@@ -149,7 +181,7 @@ Figma-Lore/
 
 ### Option A — Use the pre-built ZIP (easiest)
 
-1. Download `figma-lore-skill.zip` from this repo
+1. Download `design-lore-skill.zip` from this repo
 2. Go to [claude.ai/customize/skills](https://claude.ai/customize/skills)
 3. Click **"+"** → **"Upload a skill"** → upload the ZIP
 4. Toggle the skill **on**
@@ -163,7 +195,7 @@ design question.
 ```bash
 git clone https://github.com/AnderMagri/Figma-Lore.git
 cd Figma-Lore/skill
-zip -r ../figma-lore-skill.zip .
+zip -r ../design-lore-skill.zip .
 ```
 
 Then upload as above. The ZIP must have `SKILL.md` at the root — the `cd skill`
@@ -173,7 +205,7 @@ before zipping is what ensures this.
 
 ```bash
 git pull
-cd skill && zip -r ../figma-lore-skill.zip . && cd ..
+cd skill && zip -r ../design-lore-skill.zip . && cd ..
 ```
 
 In Claude: Customize → Skills → find the skill → delete → upload the new ZIP.
@@ -208,6 +240,8 @@ directly to any Claude conversation.
 | Critiques, sprints, handoff, QA | `20-design-ops.jsonl` |
 | Case studies, UX writing, data viz | `21-designer-toolkit.jsonl` |
 | Deep UX psychology, archetypes, persuasion | `22-deep-ux-psychology.jsonl` |
+| Shopify, ecommerce, conversion, product pages | `23-ecommerce-ux.jsonl` |
+| Crypto, fintech, wallets, DeFi, banking apps | `24-crypto-fintech-ux.jsonl` |
 
 ---
 

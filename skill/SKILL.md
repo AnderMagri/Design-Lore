@@ -1,5 +1,5 @@
 ---
-name: figma-lore
+name: design-lore
 description: >
   Expert Figma and UI design knowledge base. Covers components, auto layout,
   design systems, tokens, colour systems, iOS/Android specs, responsive design,
@@ -16,28 +16,33 @@ description: >
   error handling), prototyping and testing (A/B tests, heuristic evaluation,
   wireframes, user flows, accessibility testing), design ops (critiques, QA,
   sprints, handoff, version control), and designer toolkit (case studies, UX
-  writing, data visualisation, presentations, design system adoption). Trigger
-  for any question about Figma, design systems, tokens, colour, typography,
-  visual perception, cognitive psychology, platform specs, aesthetic/art
-  direction, design research, UX strategy, interaction design, prototyping,
-  testing, design ops, or UX writing. For deep psychological analysis, also
-  covers Activity Theory (Vygotsky, Leontiev, Luria, Bakhtin, Engeström),
-  Jungian depth psychology (archetypes, Shadow, collective unconscious),
-  phenomenology (Husserl, Heidegger, Merleau-Ponty, Ihde), semiotics (Peirce,
-  Saussure, Barthes), psychoanalytic UX (Freud, Lacan, Winnicott), ecological
-  psychology (Gibson affordances), flow and motivation (Csikszentmihalyi, SDT,
-  Maslow), existential design (Sartre, Kierkegaard), narrative psychology
-  (Campbell, Propp, Bateson), and persuasion theory (Lefebvre reflexive
-  control, Pavlov, Bernays, Lasswell, Cialdini, Sun Tzu).
+  writing, data visualisation, presentations, design system adoption). Covers
+  ecommerce UX (Shopify conversion, product pages, checkout, mobile commerce,
+  trust signals, collection pages, app ecosystem) and crypto/fintech UX (wallet
+  design, exchange trading, DeFi, on-ramp/off-ramp, KYC onboarding, trust &
+  security, error states, WalletConnect). Trigger for any question about Figma,
+  design systems, tokens, colour, typography, visual perception, cognitive
+  psychology, platform specs, aesthetic/art direction, design research, UX
+  strategy, interaction design, prototyping, testing, design ops, UX writing,
+  ecommerce, Shopify, crypto, fintech, Web3, or DeFi. For deep psychological
+  analysis, also covers Activity Theory (Vygotsky, Leontiev, Luria, Bakhtin,
+  Engeström), Jungian depth psychology (archetypes, Shadow, collective
+  unconscious), phenomenology (Husserl, Heidegger, Merleau-Ponty, Ihde),
+  semiotics (Peirce, Saussure, Barthes), psychoanalytic UX (Freud, Lacan,
+  Winnicott), ecological psychology (Gibson affordances), flow and motivation
+  (Csikszentmihalyi, SDT, Maslow), existential design (Sartre, Kierkegaard),
+  narrative psychology (Campbell, Propp, Bateson), and persuasion theory
+  (Lefebvre reflexive control, Pavlov, Bernays, Lasswell, Cialdini, Sun Tzu).
 ---
 
-# Figma Lore
+# Design Lore
 
 A curated knowledge base of Figma best practices, design system architecture,
 platform specs, UX patterns, design research, UX strategy, interaction design,
-prototyping, design ops, deep design intelligence, and advanced UX psychology
+prototyping, design ops, deep design intelligence, advanced UX psychology
 spanning Activity Theory, Jungian archetypes, phenomenology, semiotics,
-psychoanalysis, ecological psychology, and persuasion theory.
+psychoanalysis, ecological psychology, and persuasion theory — plus
+specialised ecommerce (Shopify) and crypto/fintech UX modules.
 
 ## How to Use This Skill
 
@@ -89,6 +94,12 @@ psychoanalysis, ecological psychology, and persuasion theory.
 | File | Covers | Key IDs |
 |------|--------|---------|
 | lore/22-deep-ux-psychology.jsonl | **Russian Activity Theory** (Vygotsky ZPD, Leontiev hierarchy, Luria functional systems, Bakhtin dialogism, Engeström contradictions), **Jungian Depth Psychology** (12 archetypes, Shadow/Persona, collective unconscious), **Phenomenology** (Husserl intentionality, Heidegger ready-to-hand, Merleau-Ponty embodiment, Ihde technology relations), **Semiotics** (Peirce icon/index/symbol, Saussure/Barthes mythology), **Psychoanalytic** (Freud drives/defence, Lacan mirror/desire, Winnicott transitional objects), **Ecological & Motivational** (Gibson affordances, Csikszentmihalyi flow, Deci & Ryan SDT, Maslow digital hierarchy), **Existential** (Sartre/Kierkegaard choice anxiety), **Narrative** (Campbell Hero's Journey, Propp morphology, Bateson ecology of mind), **Persuasion & Power** (Lefebvre reflexive control, Pavlov conditioning, Bernays engineering consent, Lasswell communication, Cialdini 7 principles, Sun Tzu misdirection, ethics spectrum), **Integration** (theory-led audit framework, expanded persuasion audit, design as care) | dp-001 → dp-036 |
+
+### Ecommerce & Crypto/Fintech UX Modules
+| File | Covers | Key IDs |
+|------|--------|---------|
+| lore/23-ecommerce-ux.jsonl | Shopify conversion benchmarks, product page anatomy, ATC button UX, checkout flow & abandonment, conversion psychology (Cialdini applied), mobile commerce (thumb zones, touch targets), homepage section architecture, trust signals hierarchy, collection page UX (filtering, grid, breadcrumbs), Shopify app ecosystem & performance audit | ec-001 → ec-010 |
+| lore/24-crypto-fintech-ux.jsonl | Crypto UX core challenges & design philosophy, KYC onboarding & verification, exchange trading interfaces, wallet UX & seed phrase management, fiat on-ramp/off-ramp, DeFi platform UX (gas, slippage, approvals), fintech app dashboards & security, investment portfolio display, credit card & card product UX, trust signals & post-FTX considerations, high-stakes error states, WalletConnect & dApp authentication | cf-001 → cf-012 |
 
 ---
 
@@ -223,6 +234,32 @@ psychoanalysis, ecological psychology, and persuasion theory.
 **"Deep UX audit / theory-led analysis"** → lore/22-deep-ux-psychology.jsonl (dp-027, dp-036)
 **"Design as care / ethical design"** → lore/22-deep-ux-psychology.jsonl (dp-028)
 
+### Ecommerce UX
+**"Shopify conversion / CRO / benchmarks"** → lore/23-ecommerce-ux.jsonl (ec-001)
+**"Product page / product detail page"** → lore/23-ecommerce-ux.jsonl (ec-002)
+**"Add to cart button / ATC UX"** → lore/23-ecommerce-ux.jsonl (ec-003)
+**"Checkout flow / cart abandonment"** → lore/23-ecommerce-ux.jsonl (ec-004)
+**"Conversion psychology / social proof / scarcity"** → lore/23-ecommerce-ux.jsonl (ec-005) + lore/14-behavioural-design.jsonl
+**"Mobile commerce / mobile shopping"** → lore/23-ecommerce-ux.jsonl (ec-006) + lore/07-mobile-ux.jsonl
+**"Shopify homepage / section architecture"** → lore/23-ecommerce-ux.jsonl (ec-007)
+**"Trust signals / reviews / ecommerce trust"** → lore/23-ecommerce-ux.jsonl (ec-008)
+**"Collection page / product grid / filtering"** → lore/23-ecommerce-ux.jsonl (ec-009)
+**"Shopify apps / performance / page speed"** → lore/23-ecommerce-ux.jsonl (ec-010)
+
+### Crypto & Fintech UX
+**"Crypto UX / Web3 design / blockchain UX"** → lore/24-crypto-fintech-ux.jsonl (cf-001)
+**"Crypto onboarding / KYC / verification"** → lore/24-crypto-fintech-ux.jsonl (cf-002)
+**"Exchange trading / order book / trading interface"** → lore/24-crypto-fintech-ux.jsonl (cf-003)
+**"Wallet UX / seed phrase / self-custody"** → lore/24-crypto-fintech-ux.jsonl (cf-004)
+**"On-ramp / off-ramp / fiat to crypto"** → lore/24-crypto-fintech-ux.jsonl (cf-005)
+**"DeFi UX / gas fees / slippage / liquidity"** → lore/24-crypto-fintech-ux.jsonl (cf-006)
+**"Fintech app / banking UX / neobank"** → lore/24-crypto-fintech-ux.jsonl (cf-007)
+**"Investment portfolio / stock app / portfolio display"** → lore/24-crypto-fintech-ux.jsonl (cf-008)
+**"Credit card UX / card management / rewards"** → lore/24-crypto-fintech-ux.jsonl (cf-009)
+**"Crypto trust / security UX / proof of reserves"** → lore/24-crypto-fintech-ux.jsonl (cf-010)
+**"Financial error states / high-stakes errors"** → lore/24-crypto-fintech-ux.jsonl (cf-011)
+**"WalletConnect / dApp / Web3 authentication"** → lore/24-crypto-fintech-ux.jsonl (cf-012)
+
 ---
 
 ## Key Design Principles (Always Apply)
@@ -242,3 +279,6 @@ psychoanalysis, ecological psychology, and persuasion theory.
 - **Document the why**: Every major design decision needs rationale, not just the what.
 - **Know your persuasion level**: Every design choice operates on the ethics spectrum — from education to coercion. Know where you are.
 - **Design for the activity, not the click**: Understand the motive (Leontiev), not just the operation.
+- **Trust before conversion**: In ecommerce and fintech, trust signals must precede any conversion ask.
+- **Irreversibility demands friction**: The higher the stakes (money, crypto), the more confirmation steps are justified.
+- **Fees before commitment**: Never surprise users with costs after they've committed to an action.
