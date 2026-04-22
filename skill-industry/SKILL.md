@@ -4,7 +4,8 @@ description: >
   Industry-specific UX knowledge base for ecommerce and crypto/fintech design.
   Covers Shopify UX (conversion benchmarks, product page anatomy, ATC button,
   checkout flow, cart abandonment, mobile commerce, thumb zones, trust signals,
-  collection pages, filtering, app ecosystem, page speed), and crypto/fintech
+  collection pages, filtering, custom page performance, breakpoints, Figma grid
+  setup, product card dimensions, mobile/desktop frame setup, DS readiness), and crypto/fintech
   UX (wallet design, seed phrases, self-custody, exchange trading interfaces,
   DeFi protocols, gas fees, slippage, fiat on-ramp/off-ramp, KYC onboarding,
   fintech dashboards, investment portfolios, credit card UX, trust and security,
@@ -38,7 +39,7 @@ interaction design for financial products.
 ### Ecommerce UX
 | File | Covers | Key IDs |
 |------|--------|---------|
-| lore/23-ecommerce-ux.jsonl | Shopify conversion benchmarks, product page anatomy, ATC button UX, checkout flow & abandonment, conversion psychology (Cialdini applied), mobile commerce (thumb zones, touch targets), homepage section architecture, trust signals hierarchy, collection page UX (filtering, grid, breadcrumbs), Shopify app ecosystem & performance audit | ec-001 → ec-010 |
+| lore/23-ecommerce-ux.jsonl | Shopify conversion benchmarks, product page anatomy, ATC button UX, checkout flow & abandonment, conversion psychology (Cialdini applied), mobile commerce (thumb zones, touch targets), custom page section architecture, trust signals hierarchy, collection page UX (filtering, grid, breadcrumbs), custom page performance (Core Web Vitals), Shopify breakpoints (750px mobile cutoff), Figma grid setup per breakpoint (390/768/1440), product card pixel dimensions, mobile frame setup (header/safe area/sticky ATC), desktop frame setup (1440px frame / 1200px container), Shopify DS readiness checklist | ec-001 → ec-015 |
 
 ### Crypto & Fintech UX
 | File | Covers | Key IDs |
@@ -56,10 +57,15 @@ interaction design for financial products.
 **"Checkout flow / cart abandonment"** → lore/23-ecommerce-ux.jsonl (ec-004)
 **"Conversion psychology / social proof / scarcity"** → lore/23-ecommerce-ux.jsonl (ec-005)
 **"Mobile commerce / mobile shopping"** → lore/23-ecommerce-ux.jsonl (ec-006)
-**"Shopify homepage / section architecture"** → lore/23-ecommerce-ux.jsonl (ec-007)
+**"Shopify page architecture / section order / homepage"** → lore/23-ecommerce-ux.jsonl (ec-007)
 **"Trust signals / reviews / ecommerce trust"** → lore/23-ecommerce-ux.jsonl (ec-008)
 **"Collection page / product grid / filtering"** → lore/23-ecommerce-ux.jsonl (ec-009)
-**"Shopify apps / performance / page speed"** → lore/23-ecommerce-ux.jsonl (ec-010)
+**"Shopify performance / page speed / Core Web Vitals"** → lore/23-ecommerce-ux.jsonl (ec-010)
+**"Shopify breakpoints / 750px / responsive"** → lore/23-ecommerce-ux.jsonl (ec-011)
+**"Shopify grid / Figma columns / product card sizes"** → lore/23-ecommerce-ux.jsonl (ec-012)
+**"Shopify mobile frame / header / safe area / sticky ATC"** → lore/23-ecommerce-ux.jsonl (ec-013)
+**"Shopify desktop frame / 1440px / 1200px container"** → lore/23-ecommerce-ux.jsonl (ec-014)
+**"Shopify design system checklist / DS readiness"** → lore/23-ecommerce-ux.jsonl (ec-015)
 
 ### Crypto & Fintech UX
 **"Crypto UX / Web3 design / blockchain UX"** → lore/24-crypto-fintech-ux.jsonl (cf-001)
