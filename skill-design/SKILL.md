@@ -48,7 +48,7 @@ process — everything that applies regardless of which design tool you use.
 | File | Covers | Key IDs |
 |------|--------|---------|
 | lore/11-gestalt-perception.jsonl | Gestalt laws (proximity, similarity, closure, continuity, figure-ground, symmetry, common fate, prägnanz), preattentive attributes, scanning patterns, heuristic evaluation | gp-001 → gp-016 |
-| lore/12-typography-deep.jsonl | Type anatomy, classification, optical vs mechanical spacing, kerning, tracking, leading, type scale, alignment, measure, pairing, variable fonts, rendering, emotion, design system tokens | ty-001 → ty-014 |
+| lore/12-typography-deep.jsonl | Type anatomy, classification, optical vs mechanical spacing, kerning, tracking, leading, type scale, alignment, measure, pairing, variable fonts, rendering, emotion, design system tokens, bold/weight variant naming | ty-001 → ty-015 |
 | lore/13-colour-theory.jsonl | HSL/HSB, colour harmonies, temperature, contrast/WCAG, simultaneous contrast, colour psychology by hue, colour systems, palette construction, dark mode colour, light physics, branding, cultural context | ct-001 → ct-012 |
 | lore/14-behavioural-design.jsonl | Mental models, cognitive load, Hick's Law, Fitts's Law, Jakob's Law, Miller's Law, anchoring bias, Peak-End Rule, endowment effect, variable rewards, dark patterns, ethical nudges, emotional design | bd-001 → bd-013 |
 | lore/15-art-history-part1.jsonl | Renaissance, Baroque, Art Nouveau, Bauhaus, De Stijl/Constructivism, Art Deco, Swiss Style, Pop Art, Surrealism, Atomic/Space Age, Psychedelic/Acid, 70s, Punk/Zine, Memphis Group, Hyperrealism, Grunge/90s | ah-001 → ah-016 |
@@ -90,6 +90,7 @@ process — everything that applies regardless of which design tool you use.
 **"Font pairing"** → lore/12-typography-deep.jsonl (ty-009, ty-013)
 **"Accessible type"** → lore/12-typography-deep.jsonl (ty-011, ty-012)
 **"Variable fonts"** → lore/12-typography-deep.jsonl (ty-010)
+**"Bold / SemiBold body text style naming"** → lore/12-typography-deep.jsonl (ty-015)
 
 ### Colour
 **"Colour system / tokens"** → lore/13-colour-theory.jsonl (ct-007, ct-008) + lore/02-design-system.jsonl (ds-046→ds-056)
